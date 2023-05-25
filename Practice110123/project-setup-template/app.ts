@@ -19,3 +19,19 @@ console.log('app.js speaking');
 
 let button = document.getElementById('button')!;
 button.addEventListener('click', () => { console.log('clicked') })
+
+const add = (a: number, b: number=2) => {
+    return a + b
+}
+
+const multiplyNums = (a: number, b: number=2) => a * b;
+
+const divNums = (a: number, b: number) => {
+    return a / b
+}
+
+console.log(add(4));
+
+console.log(multiplyNums(4,3));
+
+console.log(divNums(3, 4));
